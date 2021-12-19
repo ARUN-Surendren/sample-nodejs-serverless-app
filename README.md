@@ -1,2 +1,16 @@
-# sample-nodejs-serverless-app
+# Sample Nodejs Serverless Application
 This is a sample nodejs serverless application code
+
+## Installation
+
+Use the package manager [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install foobar.
+
+### For Development and localhost testing
+```bash
+npm install
+```
+
+### For AWS deployments
+```bash
+npm install --production 
+```
