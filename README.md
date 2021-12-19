@@ -17,7 +17,20 @@ npm install --production
 
 ## Usage
 
-To run the serverless application in localhost
+To run the serverless application in localhost:
 ```bash
 npm start
+```
+
+To change the port number, change the numbers in [serverles.yml](https://github.com/ARUN-Surendren/sample-nodejs-serverless-app/blob/master/serverless.yml).
+````
+custom:
+  serverless-offline:
+    httpPort: 3000
+    lambdaPort: 3200
+````
+
+To run the test script
+```bash
+npm test
 ```
