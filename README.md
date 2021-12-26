@@ -22,7 +22,7 @@ To run the serverless application in localhost:
 npm start
 ```
 
-To change the port number, change the numbers in [serverles.yml](https://github.com/ARUN-Surendren/sample-nodejs-serverless-app/blob/master/serverless.yml).
+To change the port number, change the numbers in [serverless.yml](https://github.com/ARUN-Surendren/sample-nodejs-serverless-app/blob/master/serverless.yml).
 ````
 custom:
   serverless-offline:
